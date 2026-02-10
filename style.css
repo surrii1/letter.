@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: url('bg.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hero h2 span {
+  color: #ffb6c1;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.countdown-section {
+  background: #ffe4e1;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.event {
+  background: #fff0f5;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e91e63;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.wishes form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+}

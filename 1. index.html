@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation | Alfan & Sayyidah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="overlay">
+    <h1>Wedding Invitation</h1>
+    <h2>Alfan <span>&</span> Sayyidah</h2>
+    <p>11 February 2026</p>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="countdown-section">
+  <h2>Menuju Hari Bahagia</h2>
+  <div id="countdown">
+    <div><span id="days"></span>Hari</div>
+    <div><span id="hours"></span>Jam</div>
+    <div><span id="minutes"></span>Menit</div>
+    <div><span id="seconds"></span>Detik</div>
+  </div>
+</section>
+
+<!-- EVENT DETAILS -->
+<section class="event">
+  <h2>Detail Acara</h2>
+  <p><strong>Tanggal:</strong> 11 Februari 2026</p>
+  <p><strong>Waktu:</strong> 08.00 - 13.00 WIB</p>
+  <p><strong>Lokasi:</strong> Gedung Impian Bahagia</p>
+  <a href="#" class="btn">Lihat Lokasi</a>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <h2>Galeri Kami</h2>
+  <div class="images">
+    <img src="foto1.jpg">
+    <img src="foto2.jpg">
+    <img src="foto3.jpg">
+  </div>
+</section>
+
+<!-- WISHES -->
+<section class="wishes">
+  <h2>Kirim Ucapan</h2>
+  <form id="wishForm">
+    <input type="text" id="name" placeholder="Nama Anda" required>
+    <textarea id="message" placeholder="Tulis doa & ucapan..." required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+  <div id="wishList"></div>
+</section>
+
+<footer>
+  <p>Terima kasih atas doa & kehadirannya ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
