@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salon Alfan</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+Salon Alfan
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#layanan">Layanan</a>
+<a href="#booking">Booking</a>
+<a href="#kontak">Kontak</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Salon Alfan Professional</h1>
+
+<p>
+Salon terbaik dengan pelayanan profesional dan harga terjangkau
+</p>
+
+<button onclick="scrollBooking()">
+Booking Sekarang
+</button>
+
+</section>
+
+
+<section id="layanan" class="layanan">
+
+<h2>Layanan Kami</h2>
+
+<div class="container">
+
+<div class="card" onclick="pilihLayanan('Gunting Rambut',50000)">
+<h3>Gunting Rambut</h3>
+<p>Rp 50.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Facial',80000)">
+<h3>Facial</h3>
+<p>Rp 80.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Rebonding',300000)">
+<h3>Rebonding</h3>
+<p>Rp 300.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Keriting',250000)">
+<h3>Keriting</h3>
+<p>Rp 250.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Creambath',100000)">
+<h3>Creambath</h3>
+<p>Rp 100.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Lulur',150000)">
+<h3>Lulur</h3>
+<p>Rp 150.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Pedicure',120000)">
+<h3>Pedicure</h3>
+<p>Rp 120.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Manicure',120000)">
+<h3>Manicure</h3>
+<p>Rp 120.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Colouring',200000)">
+<h3>Colouring</h3>
+<p>Rp 200.000</p>
+</div>
+
+<div class="card" onclick="pilihLayanan('Massage',180000)">
+<h3>Massage</h3>
+<p>Rp 180.000</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section id="booking" class="booking">
+
+<h2>Booking Online</h2>
+
+<form>
+
+<input type="text" id="nama" placeholder="Nama Anda">
+
+<input type="date" id="tanggal">
+
+<input type="time" id="jam">
+
+<select id="gender">
+
+<option value="">Pilih Gender</option>
+<option>Pria</option>
+<option>Wanita</option>
+
+</select>
+
+<input type="text" id="layananInput" placeholder="Layanan" readonly>
+
+<input type="text" id="hargaInput" placeholder="Harga" readonly>
+
+<button type="button" onclick="booking()">
+Booking Sekarang
+</button>
+
+</form>
+
+</section>
+
+
+
+<section id="kontak" class="kontak">
+
+<h2>Kontak</h2>
+
+<p>Alamat: Kampungsengon, Jawa Barat</p>
+
+<p>WhatsApp: 08123456789</p>
+
+<p>Email: salonalfan@gmail.com</p>
+
+</section>
+
+
+<footer>
+
+Salon Alfan © 2026
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
